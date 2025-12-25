@@ -1,0 +1,10 @@
+# Data files
+data/*.grib2
+data/*.idx
+outputs/*.xlsx
+
+# Python
+__pycache__/
+*.pyc
+.env
+.venv/

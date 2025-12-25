@@ -1,0 +1,17 @@
+name: coldwave
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - numpy
+  - pandas
+  - xarray
+  - cfgrib
+  - eccodes
+  - openpyxl 
+  - pip
+  - pip:
+      - ecmwf-opendata
+      - selenium
+      - chromedriver_autoinstaller
+
