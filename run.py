@@ -65,7 +65,7 @@ def main():
         return
 
     # Step 2: Fetch ECMWF forecast
-    # fetch_forecast() # Commented for debugging
+    fetch_forecast()
 
     # Step 3: Fetch DHM observed data
     print("Fetching DHM observed station data...")
